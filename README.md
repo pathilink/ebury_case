@@ -10,7 +10,7 @@ Technical case study in Analytics Engineering using BigQuery, focusing on dimens
 
 * Creation of dimensions:
 
-    * `dim_client` → consolidation of multiple customer sources with history (SCD Type 2).
+    * `dim_client` → consolidation of multiple customer sources.
 
     * `dim_account` → account information.
 
@@ -66,11 +66,17 @@ Technical case study in Analytics Engineering using BigQuery, focusing on dimens
  ┃ ┣ fact_payments.sql
  ┃ ┗ fact_trades.sql
  ┣ 📂 queries
+ ┃ ┣ query0_modelling.sql
  ┃ ┣ query1_trades_mtd.sql
  ┃ ┣ query2_spanish_accounts.sql
  ┃ ┣ query3_non_external_trade.sql
  ┃ ┣ query4_other_trades.sql
  ┃ ┣ query5_duplicates.sql
+ ┃ ┗ query6_trades_per_account.sql
+ ┣ 📂 results
+ ┃ ┣ query1_trades_mtd.sql
+ ┃ ┣ query2_spanish_accounts.sql
+ ┃ ┣ query4_other_trades.sql
  ┃ ┗ query6_trades_per_account.sql
  ┣ LICENSE
  ┣ README.md
