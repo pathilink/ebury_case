@@ -1,0 +1,3 @@
+trade_id,trade_type,order_date,amount
+444,imported,2021-01-21T00:00:00,250
+222,external,2020-11-11T00:00:00,500
