@@ -3,14 +3,14 @@
 ![Status Badge](https://img.shields.io/static/v1?label=STATUS&message=COMPLETE&color=008000)
 
 ## 📌 Description
-Technical case study in Analytics Engineering using BigQuery, focusing on dimensional modeling and SQL queries for payment and customer analysis.
+Technical case study in Analytics Engineering using BigQuery, focusing on dimensional modeling and SQL queries for payment and client analysis.
 
 ## 🚀 Project structure
 🔹 Part 1 – Modeling
 
 * Creation of dimensions:
 
-    * `dim_client` → consolidation of multiple customer sources.
+    * `dim_client` → consolidation of multiple client sources.
 
     * `dim_account` → account information.
 
@@ -40,7 +40,7 @@ Technical case study in Analytics Engineering using BigQuery, focusing on dimens
 
 6. All accounts with the number of trades done, even if they don’t have any trades → [Query](queries/query6_trades_per_account.sql) & [result in CSV](results/query6_trades_per_account.csv)
 
-## ✅ Data Quality Findings
+## ✅ Data quality findings
 
 During data exploration and after creating the `fact_payments_enriched` table, the following issues were found:
 
